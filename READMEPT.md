@@ -174,22 +174,17 @@ COMMENT ON COLUMN usuarios.email IS 'middleware:blind_index';
 
 ```text
 2026.1_DEC0013_DATABASE-SECURITY-MIDDLEWARE/
-
 ├── certs/
 ├── cmd/
 │   └── middleware/             # main.go e listener
-|
 ├── demo/                       # Serviço web de demonstração
 │   ├── web/       
 |   ├── docker-compose.yml          
 |   └── README
 ├── docs/assets
-|
 ├── pkg/
 │   └── middleware/             # Funcionamento Interno
-|
 ├── vault/
-|
 ├── docker-compose.yml
 └── README
 ```
