@@ -45,18 +45,26 @@ The demonstration environment was built to prove the effectiveness of the middle
 ### 1. Access Portal
 The entry point of the lab simulates a corporate intranet connecting the application to two distinct databases.
 
-![Access Portal](../docs/assets/1.png)
+<p align="center">
+  <img src="../docs/assets/1.png" alt="Access Portal" width="700">
+</p>
 
 ### 2. Clinic
 
-![Clinic Registration](../docs/assets/2.png) 
+<p align="center">
+  <img src="../docs/assets/2.png" alt="Clinic Registration" width="700">
+</p>
 
 ### 3. Search
 When searching for a patient, the interface displays real proof of the Middleware's operation: the SSN (CPF) saved in the database is an illegible Ciphertext. However, thanks to the Blind Index mechanism, the partial search by name works perfectly, filtering the data directly in the proxy's memory.
 
-![Search Result](../docs/assets/3.png) 
+<p align="center">
+  <img src="../docs/assets/3.png" alt="Search Result" width="700">
+</p>
+
 
 ### 4. E-commerce Mode
 The application also demonstrates the use of the Middleware's "Shared Mode" aimed at E-commerces, protecting credit cards with high-performance symmetric keys and lower storage overhead.
-
-![E-commerce](../docs/assets/4.png)
+<p align="center">
+  <img src="../docs/assets/4.png" alt="E-Commerce" width="700">
+</p>
